@@ -13,6 +13,13 @@ const template = [
         ]
     },
     {
+        label: 'Edit',
+        submenu: [
+            { label: "Copy", accelerator: "CmdOrCtrl+C", selector: "copy:" },
+            { role: "selectAll", accelerator: "CmdOrCtrl+A" }
+        ]
+    },
+    {
         label: 'Help',
         submenu: [
             {
